@@ -1,0 +1,2 @@
+D:\Code\CPP\Sort\Debug\Sort.exe
+D:\Code\CPP\Sort\Debug\Sort.pdb
