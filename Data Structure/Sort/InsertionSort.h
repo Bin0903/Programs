@@ -2,13 +2,13 @@
 #include "iostream"
 #include "vector"
 
-class BubbleSort
+class InsertionSort
 {
 private:
 	// 交换两个数
 	void __exchange(int& a, int& b);
 public:
-	// 冒泡排序
+	// 插入排序
 	void sort(std::vector<int>& nums);
 };
 

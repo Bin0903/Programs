@@ -1,2 +1,6 @@
-﻿  main.cpp
-  Sort.vcxproj -> D:\Code\CPP\Sort\Debug\Sort.exe
+﻿  BubbleSort.cpp
+  CountingSort.cpp
+  InsertionSort.cpp
+D:\Code\ProgrammingTest\Data Structure\Sort\InsertionSort.cpp(19,20): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  Sort.vcxproj -> D:\Code\ProgrammingTest\Data Structure\Sort\Debug\Sort.exe

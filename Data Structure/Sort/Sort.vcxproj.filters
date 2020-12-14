@@ -18,12 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="InsertionSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CountingSort.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CountingSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

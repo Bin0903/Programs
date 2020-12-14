@@ -1,6 +1,7 @@
 #include "iostream"
 #include "BubbleSort.h"
 #include "CountingSort.h"
+#include "InsertionSort.h"
 
 #include "stdlib.h"
 #include "time.h"
@@ -22,6 +23,8 @@ int main()
 	// 排序并记录所消耗的时间
 	BubbleSort objBubbleSort = BubbleSort();
 	CountingSort objCountingSort = CountingSort();
+	InsertionSort objInsertionSort = InsertionSort();
+	
 
 	clock_t beginTime, endTime;
 	beginTime = clock();
@@ -30,8 +33,9 @@ int main()
 	/*
 	* *********************
 	*/
-	objBubbleSort.sort(array);
+	//objBubbleSort.sort(array);
 	//objCountingSort.sort(array);
+	objInsertionSort.sort(array);
 	/*
 	* *********************
 	*/

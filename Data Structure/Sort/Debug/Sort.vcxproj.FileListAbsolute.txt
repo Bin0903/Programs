@@ -1,2 +1,4 @@
 D:\Code\CPP\Sort\Debug\Sort.exe
 D:\Code\CPP\Sort\Debug\Sort.pdb
+D:\Code\ProgrammingTest\Data Structure\Sort\Debug\Sort.exe
+D:\Code\ProgrammingTest\Data Structure\Sort\Debug\Sort.pdb
