@@ -1,12 +1,14 @@
 #include "iostream"
-#include "BubbleSort.h"
-#include "CountingSort.h"
-#include "InsertionSort.h"
-
 #include "stdlib.h"
 #include "time.h"
 
-#define N 10000
+#include "BubbleSort.h"
+#include "CountingSort.h"
+#include "InsertionSort.h"
+#include "SelectionSort.h"
+#include "QuickSort.h"
+
+constexpr int N = 10000;
 
 using namespace std;
 
@@ -24,6 +26,8 @@ int main()
 	BubbleSort objBubbleSort = BubbleSort();
 	CountingSort objCountingSort = CountingSort();
 	InsertionSort objInsertionSort = InsertionSort();
+	SelectionSort objSelectionSort = SelectionSort();
+	QuickSort objQuickSort = QuickSort();
 	
 
 	clock_t beginTime, endTime;
@@ -35,7 +39,9 @@ int main()
 	*/
 	//objBubbleSort.sort(array);
 	//objCountingSort.sort(array);
-	objInsertionSort.sort(array);
+	//objSelectionSort.sort(array);
+	objQuickSort.sort(array);
+	//objInsertionSort.sort(array);
 	/*
 	* *********************
 	*/

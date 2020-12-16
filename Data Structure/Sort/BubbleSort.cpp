@@ -3,7 +3,7 @@
 
 
 	// 交换两个数
-void BubbleSort::__exchange(int& a, int& b)
+void BubbleSort::__swap(int& a, int& b)
 {
 	int temp = a;
 	a = b;
@@ -23,7 +23,7 @@ void BubbleSort::sort(std::vector<int>& nums)
 			if (nums[j] > nums[j + 1])
 			{
 				mark = true;
-				__exchange(nums[j], nums[j + 1]);
+				__swap(nums[j], nums[j + 1]);
 			}
 		}
 		if (!mark)

@@ -3,7 +3,7 @@
 
 
 // 交换两个数
-void InsertionSort::__exchange(int& a, int& b)
+void InsertionSort::__swap(int& a, int& b)
 {
 	int temp = a;
 	a = b;
@@ -22,7 +22,7 @@ void InsertionSort::sort(std::vector<int>& nums)
 		{
 			if (nums[j] < nums[j - 1])
 			{
-				__exchange(nums[j], nums[j - 1]);
+				__swap(nums[j], nums[j - 1]);
 			}
 			else
 				break;
