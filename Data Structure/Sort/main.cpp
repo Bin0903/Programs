@@ -7,6 +7,7 @@
 #include "InsertionSort.h"
 #include "SelectionSort.h"
 #include "QuickSort.h"
+#include "HeapSort.h"
 
 constexpr int N = 10000;
 
@@ -14,6 +15,16 @@ using namespace std;
 
 int main()
 {
+	//vector<int> nums = vector<int>({0,1,2,3,4,5,6,7,8,9});
+	//HeapSort obj = HeapSort();
+	//obj.sort(nums);
+	//for (auto& num : nums)
+	//{
+	//	cout << num << endl;
+	//}
+	//return 0;
+
+
 	// 生成N个乱序的随机数
 	vector<int> array;
 	srand((unsigned)time(NULL));
@@ -28,6 +39,7 @@ int main()
 	InsertionSort objInsertionSort = InsertionSort();
 	SelectionSort objSelectionSort = SelectionSort();
 	QuickSort objQuickSort = QuickSort();
+	HeapSort objHeapSort = HeapSort();
 	
 
 	clock_t beginTime, endTime;
@@ -40,7 +52,8 @@ int main()
 	//objBubbleSort.sort(array);
 	//objCountingSort.sort(array);
 	//objSelectionSort.sort(array);
-	objQuickSort.sort(array);
+	//objQuickSort.sort(array);
+	objHeapSort.sort(array);
 	//objInsertionSort.sort(array);
 	/*
 	* *********************
