@@ -8,6 +8,7 @@
 #include "SelectionSort.h"
 #include "QuickSort.h"
 #include "HeapSort.h"
+#include "MergeSort.h"
 
 constexpr int N = 10000;
 
@@ -15,9 +16,9 @@ using namespace std;
 
 int main()
 {
-	//vector<int> nums = vector<int>({0,1,2,3,4,5,6,7,8,9});
-	//HeapSort obj = HeapSort();
-	//obj.sort(nums);
+	//vector<int> nums = vector<int>({9,8,7,6,5,4,3,2,1,0});
+	//MergeSort obj = MergeSort();
+	//obj.sort(nums, 0, nums.size()-1);
 	//for (auto& num : nums)
 	//{
 	//	cout << num << endl;
@@ -40,6 +41,7 @@ int main()
 	SelectionSort objSelectionSort = SelectionSort();
 	QuickSort objQuickSort = QuickSort();
 	HeapSort objHeapSort = HeapSort();
+	MergeSort objMergeSort = MergeSort();
 	
 
 	clock_t beginTime, endTime;
@@ -53,8 +55,9 @@ int main()
 	//objCountingSort.sort(array);
 	//objSelectionSort.sort(array);
 	//objQuickSort.sort(array);
-	objHeapSort.sort(array);
+	//objHeapSort.sort(array);
 	//objInsertionSort.sort(array);
+	objMergeSort.sort(array);
 	/*
 	* *********************
 	*/

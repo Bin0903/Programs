@@ -144,6 +144,7 @@
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectionSort.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="CountingSort.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectionSort.h" />
   </ItemGroup>
