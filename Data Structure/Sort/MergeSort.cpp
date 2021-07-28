@@ -3,9 +3,7 @@
 void MergeSort::merge(std::vector<int>& nums, int left, int mid, int right)
 {
 	int length = right - left+2;
-	int* temp = new int[length];
-
-	memset(temp, 0, sizeof(temp));
+	std::vector<int> temp(length);
 
 	int i = left, j = mid+1;
 
@@ -32,8 +30,6 @@ void MergeSort::merge(std::vector<int>& nums, int left, int mid, int right)
 	{
 		nums[left++] = temp[p++];
 	}
-
-	delete[] temp;
 }
 
 void MergeSort::sort(std::vector<int>& nums)

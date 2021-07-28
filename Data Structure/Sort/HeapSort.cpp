@@ -45,8 +45,6 @@ void HeapSort::sort(std::vector<int>& nums)
 {
 	int length = nums.size();
 
-	int root_size = (length - 2) / 2;
-
 	// 调整成大根堆
 	bulidMaxHeap(nums);
 
